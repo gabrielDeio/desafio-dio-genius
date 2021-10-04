@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(250, 243, 243);
+    background-color: rgb(243, 243, 243);
 }
 
 .jogo {
@@ -37,7 +37,7 @@ body {
     background-color: blue;
     border-top-left-radius: 100%;
     opacity: 0.6;
-    
+    box-shadow: 0 5px rgb(0, 0, 134);
 }
 
 .vermelho {
@@ -45,6 +45,7 @@ body {
     background-color:rgb(255, 0, 0);
     border-top-right-radius: 100%;
     opacity: 0.6;
+    box-shadow: 0 5px rgb(131, 0, 0);
 }
 
 .verde {
@@ -52,6 +53,7 @@ body {
     background-color: rgb(55, 158, 55);
     border-bottom-left-radius: 100%;
     opacity: 0.6;
+    box-shadow: 0 5px #006000;
 }
 
 .amarelo {
@@ -59,4 +61,12 @@ body {
     background-color: yellow;
     border-bottom-right-radius: 100%;
     opacity: 0.6;
+    box-shadow: 0 5px rgb(126, 126, 1);
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(57, 59, 45);
+    font-weight:bolder;
+    font-size: 100px;
 }
